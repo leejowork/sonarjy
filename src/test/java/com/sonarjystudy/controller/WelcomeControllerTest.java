@@ -17,13 +17,13 @@ import org.springframework.test.web.servlet.RequestBuilder;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
 @WebMvcTest(WelcomeController.class)
-public class WelcomeControllerTest {
+class WelcomeControllerTest {
 	
 	@Autowired
 	private MockMvc mockMvc;
 	
 	@Test
-	public void welcomeMap_basic() throws Exception {
+	void welcomeMap_basic() throws Exception {
 		
 		RequestBuilder requestBuilder = MockMvcRequestBuilders
 														.get("/welcome/jesus")
