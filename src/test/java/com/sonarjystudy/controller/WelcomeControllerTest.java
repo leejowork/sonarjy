@@ -2,6 +2,7 @@ package com.sonarjystudy.controller;
 
 
 
+import static org.junit.Assert.assertEquals;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
@@ -30,6 +31,8 @@ public class WelcomeControllerTest {
 								.andExpect(status().isOk())
 								.andExpect(content().string("jesus welcome"))
 								.andReturn();
+		//verify "Hello World"
+		assertEquals("jesus welcome", result.getResponse().getContentAsString());
 		
 	}
 	
