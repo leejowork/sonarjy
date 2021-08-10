@@ -10,7 +10,9 @@ class SonarcloudLeejoWorkApplicationTests {
 
 	@Test
 	void contextLoads() {
-		assertEquals("true", "true");
+		
+		String stat = "true";
+		assertEquals("true",stat);
 	}
 
 }
