@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.sonarjystudy</groupId>
-	<artifactId>sonarcloud-leejo-work</artifactId>
+	<artifactId>sonarcloud-leejo-work2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>sonarcloud-leejo-work</name>
 	<description>Demo project for Spring Boot</description>
