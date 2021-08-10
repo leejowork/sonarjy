@@ -12,7 +12,7 @@ public class WelcomeController {
 
 	
 	@GetMapping("/jesus")
-	public ResponseEntity<String> welcomeMap(){
-		return new ResponseEntity<>("jesus welcome",HttpStatus.OK);
+	public String welcomeMap(){
+		return "jesus welcome";
 	}
 }
